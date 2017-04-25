@@ -1,0 +1,38 @@
+.featured {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1111px;
+  transform: translate(-50%, -50%);
+
+  &__options {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__options-item {
+    margin-left: 15px;
+    font-size: 15px;
+    cursor: pointer;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+}
+
+
+.active {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 35px;
+    height: 10%;
+    margin-top: 3px;
+    background: $c-primary;
+    content: '';
+  }
+}

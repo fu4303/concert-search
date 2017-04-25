@@ -1,0 +1,47 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 30px);
+    width: 343px;
+    margin: 15px;
+  }
+
+  &__item-img {
+    object-fit: cover;
+  }
+
+  &__item-title {
+    margin-bottom: 2px;
+    color: $c-gray;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  &__item-subtitle {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  &__half {
+    display: flex;
+  }
+
+  &__half-group {
+    flex-basis: (50%);
+    margin-top: 20px;
+    border-top: 1px solid $c-gray;
+    border-left: 1px solid $c-gray;
+
+    &:first-of-type {
+      border-left: 0;
+    }
+
+    &:last-of-type {
+      padding-left: 15px;
+    }
+  }
+}

@@ -1,15 +1,19 @@
 .app {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
 
   &__main {
-    flex-grow: 1;
+    position: relative;
   }
 }
 
 .container1 {
   width: 1200px;
+  margin: 0 auto;
+}
+
+.container2 {
+  width: 1111px;
+  height: 576px;
   margin: 0 auto;
 }
 
