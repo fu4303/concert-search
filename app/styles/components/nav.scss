@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+
+  &__logo {
+    width: 43px;
+    height: 54px;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 356px;
+  }
+
+  &__item {
+    color: $c-white;
+
+    &--main {
+      padding: 5px 10px;
+      border-radius: 0.4rem;
+      background: $c-white;
+      color: $c-black;
+    }
+  }
+}

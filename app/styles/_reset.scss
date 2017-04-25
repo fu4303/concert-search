@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 img {
@@ -9,4 +11,8 @@ img {
 ul {
   padding-left: 0;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
