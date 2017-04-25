@@ -88,6 +88,7 @@
                 </div>
             </div>
           </div>
+          <button class="featured__button">Discover more</button>
         </div>
       </div>
       </div>
