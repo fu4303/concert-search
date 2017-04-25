@@ -5,8 +5,8 @@
         <div class="nav">
           <img src="./images/logo.png" alt="">
           <div class="nav__right">
-            <a href="#" class="nav__item">Browse</a>
-            <a href="#" class="nav__item">Discover</a>
+            <a href="#" class="nav__item nav__item--hidden">Browse</a>
+            <a href="#" class="nav__item nav__item--hidden">Discover</a>
             <a href="#" class="nav__item">Add Event</a>
             <a href="#" class="nav__item nav__item--main">Join Us</a>
           </div>
