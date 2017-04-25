@@ -5,7 +5,7 @@
 
   &__item {
     flex-basis: calc(100% / 3 - 30px);
-    width: 343px;
+    flex-grow: 1;
     margin: 15px;
   }
 
@@ -22,7 +22,6 @@
 
   &__item-subtitle {
     margin-top: 0;
-    margin-bottom: 5px;
     font-size: 20px;
   }
 
@@ -32,7 +31,6 @@
 
   &__half-group {
     flex-basis: (50%);
-    margin-top: 20px;
     border-top: 1px solid $c-gray;
     border-left: 1px solid $c-gray;
 

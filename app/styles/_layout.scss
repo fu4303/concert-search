@@ -1,4 +1,6 @@
 .app {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
 
   &__main {
@@ -12,13 +14,21 @@
 }
 
 .container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1111px;
   height: 576px;
   margin: 0 auto;
+
 }
 
 @media (max-width: 1024px) {
   .container1 {
     width: 688px;
+  }
+
+  .container2 {
+    width: 689px;
   }
 }
