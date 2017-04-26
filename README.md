@@ -7,7 +7,7 @@ TECH STACK:
 
 TO OPEN PROJECT:
 ------
-1. Install the generator-qunit-broccoli plug by using npm install -g yarn yo generator-qunit-broccoli. Then, run it in your termin with yo qunit-broccoli.
+1. Install the generator-qunit-broccoli plug by using npm install -g yarn yo generator-qunit-broccoli. Then run it in your terminal with yo qunit-broccoli.
 2. Run yarn add vue in terminal
 3. Run npm run setup:vue
 4. You're good to go!
