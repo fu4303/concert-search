@@ -1,7 +1,6 @@
 <template lang="html">
   <div class="app">
     <div class="hero">
-      <div class="container1">
         <div class="nav">
           <img src="./images/logo.png" alt="">
           <div class="nav__right">
@@ -11,7 +10,6 @@
             <a href="#" class="nav__item nav__item--main">Join Us</a>
           </div>
         </div>
-      </div>
           <div class="hero__content">
             <p class="hero__content-title">Discover the top live music events near you</p>
             <div class="form">
@@ -36,7 +34,6 @@
     </div>
 
     <div class="app__main">
-      <div class="container2">
         <div class="featured">
           <div class="featured__options">
             <p class="featured__options-item"><span class="active">Most popular</span></p>
@@ -92,7 +89,6 @@
           </div>
           <button class="featured__button">Discover more</button>
           </div>
-        </div>
       </div>
 
       <footer class="footer">
