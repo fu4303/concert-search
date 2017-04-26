@@ -19,7 +19,9 @@
               <div class="form__group">
               <select class="form__select">
                 <option value="location">Location</option>
-                <option value="tennessee">Tennessee</option>
+                <option value="Nashville">Nashville, TN</option>
+                <option value="Atlanta">Atlanta, GA</option>
+                <option value="Birmingham">Birmingham, AL</option>
               </select>
               <select class="form__select">
                 <option value="budget">Budget</option>

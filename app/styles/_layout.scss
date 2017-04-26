@@ -23,12 +23,18 @@
 
 }
 
+@media (max-width: 420px) {
+  .container2 {
+    width: 282px;
+  }
+}
+
 @media (max-width: 1024px) {
   .container1 {
     width: 688px;
   }
 
   .container2 {
-    width: 689px;
+    max-width: 689px;
   }
 }
