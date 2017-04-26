@@ -1,5 +1,7 @@
 .featured {
-  height: 576px;
+  display: flex;
+  flex-direction: column;
+  width: 1111px;
 
   &__options {
     display: flex;
@@ -46,5 +48,11 @@
     border-radius: 3px;
     background: transparent;
     content: '';
+  }
+}
+
+@media (max-width: 768px) {
+  .featured {
+    width: 688px;
   }
 }
