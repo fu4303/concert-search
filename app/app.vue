@@ -91,9 +91,24 @@
             </div>
           </div>
           <button class="featured__button">Discover more</button>
-        <!-- </div> -->
+          </div>
+        </div>
       </div>
-      </div>
+
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__group">
+            <a href="#" class="footer__group-item">&#x24B8; 2017 Lewis</a>
+            <a href="#" class="footer__group-item">Privacy Policy</a>
+            <a href="#" class="footer__group-item">Terms Of Use</a>
+        </div>
+        <div class="footer__group">
+          <a href="https://www.facebook.com/LewisCommunications" class="footer__group-item"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/lewisideas" class="footer__group-item"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#" class="footer__group-item"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+</div>
+      </footer>
     </div>
   </div>
 </template>

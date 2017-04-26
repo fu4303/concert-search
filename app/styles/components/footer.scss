@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 60px;
+  border-top: 1px solid $c-gray;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  &__group-item {
+    margin: 0 10px;
+    color: $c-gray;
+    font-size: 13px;
+  }
+}
+
+.fa-facebook,
+.fa-google-plus,
+.fa-twitter {
+  width: 28px;
+  padding: 7px;
+  border-radius: 50%;
+  background: $c-gray;
+  color: $c-white;
+}
+
+@media (max-width: 420px) {
+  .footer {
+
+    &__content {
+      flex-direction: column-reverse;
+    }
+
+    &__group {
+      margin-top: 14px;
+    }
+  }
+}
