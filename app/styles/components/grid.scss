@@ -47,7 +47,20 @@
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 420px) {
+  .grid {
+
+    &__item {
+      flex-grow: 1;
+    }
+
+    &__item-subtitle {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
   .grid {
 
     &__item {
@@ -65,9 +78,9 @@
         height: 320px;
       }
     }
-  }
 
-  &__item-subtitle {
-    font-size: 16px;
+    &__item-subtitle {
+      font-size: 16px;
+    }
   }
 }

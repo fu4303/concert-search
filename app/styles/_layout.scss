@@ -8,3 +8,24 @@
     flex-grow: 1;
   }
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1111px;
+  margin: 0 auto;
+
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 282px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    max-width: 689px;
+  }
+}

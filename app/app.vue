@@ -34,61 +34,63 @@
     </div>
 
     <div class="app__main">
-        <div class="featured">
-          <div class="featured__options">
-            <p class="featured__options-item"><span class="active">Most popular</span></p>
-            <p class="featured__options-item">Coming up</p>
-            <p class="featured__options-item">Near you</p>
-          </div>
-          <div class="grid">
-            <div class="grid__item">
-              <img src="./images/event1.jpg" class="grid__item-image" alt="">
-                  <p class="grid__item-title">Country</p>
-                  <p class="grid__item-subtitle">Kenny Chesney w/ Grace Potter</p>
-                <div class="grid__half">
-                  <div class="grid__half-group">
-                    <p class="grid__item-title">Location</p>
-                    <p class="grid__item-subtitle">Nashville, TN</p>
-                  </div>
-                  <div class="grid__half-group">
-                    <p class="grid__item-title">Price</p>
-                    <p class="grid__item-subtitle">$30-260</p>
-                  </div>
-                </div>
+        <div class="container">
+          <div class="featured">
+            <div class="featured__options">
+              <p class="featured__options-item"><span class="active">Most popular</span></p>
+              <p class="featured__options-item">Coming up</p>
+              <p class="featured__options-item">Near you</p>
             </div>
-            <div class="grid__item">
-              <img src="./images/event2.jpg" class="grid__item-image" alt="">
-                  <p class="grid__item-title">Jazz</p>
-                  <p class="grid__item-subtitle">Gerald Albright Band</p>
-                <div class="grid__half">
-                  <div class="grid__half-group">
-                    <p class="grid__item-title">Location</p>
-                    <p class="grid__item-subtitle">Atlanta, GA</p>
+            <div class="grid">
+              <div class="grid__item">
+                <img src="./images/event1.jpg" class="grid__item-image" alt="">
+                    <p class="grid__item-title">Country</p>
+                    <p class="grid__item-subtitle">Kenny Chesney w/ Grace Potter</p>
+                  <div class="grid__half">
+                    <div class="grid__half-group">
+                      <p class="grid__item-title">Location</p>
+                      <p class="grid__item-subtitle">Nashville, TN</p>
+                    </div>
+                    <div class="grid__half-group">
+                      <p class="grid__item-title">Price</p>
+                      <p class="grid__item-subtitle">$30-260</p>
+                    </div>
                   </div>
-                  <div class="grid__half-group">
-                    <p class="grid__item-title">Price</p>
-                    <p class="grid__item-subtitle">$15-90</p>
+              </div>
+              <div class="grid__item">
+                <img src="./images/event2.jpg" class="grid__item-image" alt="">
+                    <p class="grid__item-title">Jazz</p>
+                    <p class="grid__item-subtitle">Gerald Albright Band</p>
+                  <div class="grid__half">
+                    <div class="grid__half-group">
+                      <p class="grid__item-title">Location</p>
+                      <p class="grid__item-subtitle">Atlanta, GA</p>
+                    </div>
+                    <div class="grid__half-group">
+                      <p class="grid__item-title">Price</p>
+                      <p class="grid__item-subtitle">$15-90</p>
+                    </div>
                   </div>
-                </div>
-            </div>
-            <div class="grid__item">
-              <img src="./images/event3.jpg" class="grid__item-image" alt="">
-                  <p class="grid__item-title">Electronic</p>
-                  <p class="grid__item-subtitle">The Rock Church</p>
-                <div class="grid__half">
-                  <div class="grid__half-group">
-                    <p class="grid__item-title">Location</p>
-                    <p class="grid__item-subtitle">Birmingham, AL</p>
-                  </div>
-                  <div class="grid__half-group">
-                    <p class="grid__item-title">Price</p>
-                    <p class="grid__item-subtitle">$20-40</p>
+              </div>
+              <div class="grid__item">
+                <img src="./images/event3.jpg" class="grid__item-image" alt="">
+                    <p class="grid__item-title">Electronic</p>
+                    <p class="grid__item-subtitle">The Rock Church</p>
+                  <div class="grid__half">
+                    <div class="grid__half-group">
+                      <p class="grid__item-title">Location</p>
+                      <p class="grid__item-subtitle">Birmingham, AL</p>
+                    </div>
+                    <div class="grid__half-group">
+                      <p class="grid__item-title">Price</p>
+                      <p class="grid__item-subtitle">$20-40</p>
+                    </div>
                   </div>
                 </div>
               </div>
+            <button class="featured__button">Discover more</button>
             </div>
-          <button class="featured__button">Discover more</button>
-          </div>
+        </div>
       </div>
 
       <footer class="footer">
